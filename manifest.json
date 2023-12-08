@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Jisho Side Panel",
+    "version": "1.0",
+    "description": "Opens a side panel with jisho.org",
+    "permissions": [
+      "sidePanel"
+    ],
+    "action": {
+      "default_title": "Click to open panel"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "side_panel": {
+      "default_path": "panel.html"
+    },
+    "icons": {
+      "128": "icon128.png"
+    }
+  }

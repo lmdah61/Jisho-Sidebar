@@ -1,0 +1,14 @@
+/* panel.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars from appearing */
+}
+
+#jishoFrame {
+    border: none; /* Removes the default border around iframes */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
