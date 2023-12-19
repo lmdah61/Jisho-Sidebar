@@ -5,8 +5,8 @@ chrome.sidePanel
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
-    id: 'openSidePanel',
-    title: 'Open side panel',
+    id: 'jishosidebar',
+    title: 'Jisho Sidebar',
     contexts: ['all']
   });
 });
