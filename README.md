@@ -17,6 +17,6 @@ Install from the Chrome Web Store:
 
 If you find this extension useful, please consider supporting its development with a donation:
 
-**Bitcoin Lightning Network**: opulentmenu06@walletofsatoshi.co
+**Bitcoin Lightning Network**: opulentmenu06@walletofsatoshi.com
 
 ![Screenshot of Jisho Sidebar](https://github.com/lmdah61/Jisho-Sidebar/assets/123673560/6d3945a2-6e3d-4a42-a0c7-1aa5b396afdd)
