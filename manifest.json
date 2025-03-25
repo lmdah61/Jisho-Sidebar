@@ -20,11 +20,11 @@
     "128": "icon128.png"
   },
   "commands": {
-    "open_jisho_sidebar": {
+    "_execute_action": {
       "suggested_key": {
-        "default": "Alt+J"
+        "default": "Alt+S"
       },
-      "description": "Open Jisho Sidebar"
+      "description": "Activate the extension"
     }
   }
 }
