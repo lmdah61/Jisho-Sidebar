@@ -6,7 +6,6 @@ Easily look up words, kanji, sentences, and names in Japanese or English, withou
 [https://chromewebstore.google.com/detail/jisho-sidebar/dgcgnegiihkjebinadhconhkgmcafjpl](https://chromewebstore.google.com/detail/jisho-sidebar/dgcgnegiihkjebinadhconhkgmcafjpl)
 
 ![screenshot1](https://github.com/user-attachments/assets/c3a1f5ad-761d-4786-adc9-b68099b6f7ce)
-
 <sub>**Leave a Tip:** opulentmenu06@walletofsatoshi.com</sub>
 
 
