@@ -28,11 +28,14 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     // First ensure the panel is open
     chrome.sidePanel.open({ windowId: tab.windowId })
       .then(() => {
-        // Then send the selected text to the panel
-        chrome.runtime.sendMessage({
-          action: 'lookupText',
-          text: info.selectionText
-        }).catch(error => console.error('Error sending message:', error));
+        // Add a small delay to ensure the panel is fully loaded
+        setTimeout(() => {
+          // Then send the selected text to the panel
+          chrome.runtime.sendMessage({
+            action: 'lookupText',
+            text: info.selectionText
+          }).catch(error => console.error('Error sending message:', error));
+        }, 500); // 500ms delay
       })
       .catch(error => console.error('Error opening side panel for lookup:', error));
   }

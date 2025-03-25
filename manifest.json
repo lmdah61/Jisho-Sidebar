@@ -5,8 +5,7 @@
   "description": "Opens a sidebar with jisho.org for quick Japanese-English dictionary lookups",
   "permissions": [
     "sidePanel",
-    "contextMenus",
-    "tabs"
+    "contextMenus"
   ],
   "action": {
     "default_title": "Click to open sidebar"
