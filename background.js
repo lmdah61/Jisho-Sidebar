@@ -3,11 +3,14 @@ chrome.sidePanel
   .setPanelBehavior({ openPanelOnActionClick: true })
   .catch((error) => console.error(error));
 
-// Create a context menu item for looking up selected text in Jisho
-chrome.contextMenus.create({
-  id: "lookupInJisho",
-  title: "Look up \"%s\" in Jisho.org",
-  contexts: ["selection"]
+// First remove any existing context menu items to prevent duplicate ID errors
+chrome.contextMenus.removeAll().then(() => {
+  // Create a context menu item for looking up selected text in Jisho
+  chrome.contextMenus.create({
+    id: "lookupInJisho",
+    title: "Look up \"%s\" in Jisho.org",
+    contexts: ["selection"]
+  });
 });
 
 // Handle the context menu click event
