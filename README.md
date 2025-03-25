@@ -5,8 +5,8 @@ Easily look up words, kanji, sentences, and names in Japanese or English, withou
 
 ## How to Use
 
-1. **Open the sidebar**: Click the extension icon in your toolbar or use the Alt+J keyboard shortcut
-2. **Look up selected text**: Select any text on a webpage, right-click, and choose "Look up in Jisho"
+1. **Open the sidebar**: Click the extension icon in your toolbar or use the Alt+S keyboard shortcut
+2. **Look up selected text**: Select any text on a webpage, right-click, and choose "Look up in Jisho.org"
 
 ## Installation
 
